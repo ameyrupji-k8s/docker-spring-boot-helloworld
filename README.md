@@ -6,7 +6,8 @@ Taking the Basic Hello World Application in Spring Boot! further. This example c
 ## Prerequisites
 
 - Java IDE (I am using IntelliJ CE)
-- Maven 
+- Maven
+- Docker
 
 
 ## System Configuration at time of test

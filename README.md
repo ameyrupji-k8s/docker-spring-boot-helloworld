@@ -14,6 +14,7 @@ Taking the Basic Hello World Application in Spring Boot! further. This example c
 - macOS Mojave - Version 10.14.6
 - IntelliJ CE - Version CE 2019.2
 - Maven - Version 3.6.1
+- Docker Desktop - Version 2.1.0.1 (37199)
 
 ## Initial Setup
 
@@ -53,6 +54,15 @@ To list all the containers running run this command on the terminal: `docker ps 
 Run the following command to ensure the server is running: `curl localhost:45678/helloworld/`
 
 You can also view it in the browser by going to `http://localhost:45678/helloworld/` and following response will show up:
+
+
+## Cleanup
+
+To stop the container that is running use this command: `docker stop {container_id}`
+
+To delete the container that was created use this command: `docker rm {container_id}`
+
+To delete the docker image that was created: `docker rmi {image_id}`
 
 ## Useful links
 

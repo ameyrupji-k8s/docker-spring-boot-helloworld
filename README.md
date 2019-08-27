@@ -39,8 +39,12 @@ CMD ["/usr/bin/java", "-jar", "-Dspring.profiles.active=default", "/helloworld.j
 
 To build the docker image run the following command on the terminal: `docker build -t spring-boot-helloworld:v1 .`
 
+![](images/termainal-docker-build.png)
+
+
 To list the created docker images run the command on the terminal: `docker images`
 
+![terminal-docker-images](images/terminal-docker-images.png)
 
 ### Run the Docker Container
 
@@ -48,13 +52,19 @@ Run the following command to spin up the container server: `docker run -d -p 456
 
 To list all the containers running run this command on the terminal: `docker ps -a`
 
+![terminal-docker-run](images/terminal-docker-run.png)
+
 
 ## Test 
 
 
 Run the following command to ensure the server is running: `curl localhost:45678/helloworld/`
 
+![terminal-curl-localhost-45678](images/terminal-curl-localhost-45678.png)
+
 You can also view it in the browser by going to `http://localhost:45678/helloworld/` and following response will show up:
+
+![safari localhost 45678](images/safari-localhost-45678.png)
 
 
 ## Cleanup

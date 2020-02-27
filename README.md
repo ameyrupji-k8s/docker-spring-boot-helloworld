@@ -2,6 +2,8 @@
 
 Taking the Basic Hello World Application in Spring Boot! further. This example creates a docker container containing a Spring Boot application with a Controller that returns "Hello World!".
 
+**Note:** Refer [spring-boot-helloworld](https://github.com/ameyrupji-k8s/spring-boot-helloworld) repo.
+
 
 ## Prerequisites
 
@@ -27,7 +29,7 @@ Follow the steps outlined in [spring-boot-helloworld](https://github.com/ameyrup
 
 Add `Dockerfile`
 
-```
+```sh
 FROM openjdk:8-jre-alpine
 COPY ./target/com.ameyrupji.helloworld-1.0-SNAPSHOT.jar /helloworld.jar
 
@@ -77,6 +79,7 @@ To delete the docker image that was created: `docker rmi {image_id}`
 
 ## Useful links
 
+- https://github.com/ameyrupji-k8s/spring-boot-helloworld
 - https://github.com/ameyrupji/docker-nginx-static-html-demo
 - https://stackify.com/guide-docker-java/
 

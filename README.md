@@ -86,5 +86,5 @@ To delete the docker image that was created: `docker rmi {image_id}`
 - https://github.com/ameyrupji/docker-nginx-static-html-demo
 - https://stackify.com/guide-docker-java/
 
-| [Next ▸](https://github.com/ameyrupji-k8s/k8s-docker-spring-boot-helloworld) |
+| [Next ▸](https://github.com/ameyrupji-k8s/k8s-spring-boot-helloworld) |
 |-----|

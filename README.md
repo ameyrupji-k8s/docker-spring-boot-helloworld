@@ -1,4 +1,4 @@
-| ◂ [Previous](https://github.com/ameyrupji-k8s/spring-boot-helloworld) |
+| [◂ Previous](https://github.com/ameyrupji-k8s/spring-boot-helloworld) |
 |-----|
 
 # docker-spring-boot-helloworld
